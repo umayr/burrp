@@ -7,10 +7,10 @@ A CLI app to generate food names.
 
 ### Usage
 
-To install foody from npm, run:
+To install burrp from npm, run:
 
 ```
-$ npm install -g foody
+$ npm install -g burrp
 ```
 
 Once its installed try:
