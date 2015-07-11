@@ -1,11 +1,11 @@
 'use strict';
 
-var assert = require("assert");
+var assert = require('assert');
 var exec = require('child_process').exec;
 var path = require('path');
 
-describe('foody bin', function () {
-    var cmd = 'node ' + path.join(__dirname, '../bin/foody') + ' ';
+describe('burrp', function () {
+    var cmd = 'node ' + path.join(__dirname, '../bin/burrp') + ' ';
     console.log(cmd);
 
     it('--help should run without errors', function (done) {
@@ -67,7 +67,6 @@ describe('foody bin', function () {
                 for (var j = 0; j < arr.length; j++) {
                     if (i != j) {
                         if (arr[i] == arr[j]) {
-                            console.log(arr[i])
                             __unique = false;
                         }
                     }
