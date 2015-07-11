@@ -3,9 +3,10 @@
 'use strict';
 
 var program = require('commander');
+var pckg = require('../package.json');
 
 program
-    .version('0.0.1')
+    .version(pckg.version)
     .option('-n, --number <n>', 'Number of food names', parseInt)
     .parse(process.argv);
 
