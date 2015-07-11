@@ -1,2 +1,8 @@
+# Node Module
 /node_modules/
+
+# Stupid npm logs
 npm-debug.log
+
+# IDE Configuration
+/.idea/
