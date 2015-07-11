@@ -1,0 +1,39 @@
+{
+  "name": "foody",
+  "version": "0.0.1",
+  "description": "A CLI app to generate food names.",
+  "private": true,
+  "bin": {
+    "foody": "./bin/foody"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": "Umayr Shahid <umayrr@hotmail.co.uk> (https://bandooqwala.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umayr/foody.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umayr/foody/issues"
+  },
+  "dependencies": {
+    "commander": "~2.0.0"
+  },
+  "homepage": "https://github.com/umayr/foody#readme",
+  "main": "bin/foody",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "food",
+    "cli",
+    "app",
+    "food",
+    "names",
+    "unique",
+    "dishes"
+  ]
+}
