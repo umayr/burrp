@@ -1,39 +1,40 @@
 {
-  "name": "foody",
-  "version": "0.0.2",
-  "description": "A CLI app to generate food names.",
-  "private": false,
-  "bin": {
-    "foody": "./bin/foody"
-  },
-  "scripts": {
-    "test": "mocha -R spec"
-  },
-  "author": "Umayr Shahid <umayrr@hotmail.co.uk> (https://bandooqwala.com)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/umayr/foody.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/umayr/foody/issues"
-  },
-  "dependencies": {
-    "commander": "~2.0.0"
-  },
-  "homepage": "https://github.com/umayr/foody#readme",
-  "main": "bin/foody",
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {},
-  "keywords": [
-    "food",
-    "cli",
-    "app",
-    "food",
-    "names",
-    "unique",
-    "dishes"
-  ]
+    "name": "burrp",
+    "version": "0.0.2",
+    "description": "A tiny cli app to generate food names.",
+    "private": false,
+    "bin": {
+        "burrp": "./bin/burrp"
+    },
+    "scripts": {
+        "test": "mocha -R spec"
+    },
+    "author": "Umayr Shahid <umayrr@hotmail.co.uk> (https://bandooqwala.com)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/umayr/burrp.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/umayr/burrp/issues"
+    },
+    "dependencies": {
+        "commander": "~2.0.0"
+    },
+    "homepage": "https://github.com/umayr/burrp#readme",
+    "main": "bin/burrp",
+    "directories": {
+        "test": "test"
+    },
+    "devDependencies": {},
+    "keywords": [
+        "food",
+        "cli",
+        "app",
+        "food",
+        "names",
+        "unique",
+        "dishes",
+        "burp"
+    ]
 }
