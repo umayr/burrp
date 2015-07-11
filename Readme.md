@@ -20,7 +20,3 @@ $ npm install -g foody
 Copyright (c) 2015 Umayr Shahid
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
-
-# Acknowledgments
-
-Built using [generator-commader](https://github.com/Hypercubed/generator-commander).
