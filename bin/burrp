@@ -14,7 +14,7 @@ program
 
 program
     .on('*', function (name) {
-        console.log('\'' + name + '\' is not a known command. See \'foody --help\':');
+        console.log('\'' + name + '\' is not a known command. See \'burp --help\':');
         program.outputHelp();
         process.exit(1);
     });
