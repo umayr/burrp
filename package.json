@@ -1,10 +1,11 @@
 {
     "name": "burrp",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "A tiny cli app to generate food names.",
     "private": false,
     "bin": {
-        "burrp": "./bin/burrp"
+        "burrp": "./bin/burrp",
+        "burp": "./bin/burrp"
     },
     "scripts": {
         "test": "mocha -R spec"
@@ -22,7 +23,7 @@
         "commander": "~2.0.0"
     },
     "homepage": "https://github.com/umayr/burrp#readme",
-    "main": "bin/burrp",
+    "main": "./lib/index",
     "directories": {
         "test": "test"
     },
