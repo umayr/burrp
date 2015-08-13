@@ -15,10 +15,10 @@ $ npm install -g burrp
 
 Once its installed try:
 ```
-$ burrp -V
-0.0.2
+$ burp -V
+0.1.0
 
-$ burrp -h
+$ burp -h
 
   Usage: burrp [options]
 
@@ -28,10 +28,10 @@ $ burrp -h
     -V, --version     output the version number
     -n, --number <n>  Number of food names
 
-$ burrp
+$ burp
 White Wine and Walnut Tart
 
-$ burrp
+$ burp
 Strawberry and Coconut Pie
 Dark Chocolate and Ginger Mooncake
 Strawberry and Kiwi Cake
@@ -44,6 +44,9 @@ Passion Fruit Toast
 Tea-Smoked Mint Roll
 
 ```
+
+Note: This package registers two commands, `burrp` & `burp`. You can use either of those for cli.
+
 ### Tests
 
 If you have [mocha](https://github.com/mochajs/mocha) installed already,
