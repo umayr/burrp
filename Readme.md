@@ -7,13 +7,15 @@ A CLI app to generate food names.
 
 ### Usage
 
-To install burrp from npm, run:
+##### Command Line:
+
+To install burrp globally from npm, run:
 
 ```
 $ npm install -g burrp
 ```
 
-Once its installed try:
+Once its installed, it can be used via command line. Try:
 ```
 $ burp -V
 0.1.0
@@ -44,8 +46,24 @@ Passion Fruit Toast
 Tea-Smoked Mint Roll
 
 ```
-
 Note: This package registers two commands, `burrp` & `burp`. You can use either of those for cli.
+
+#### Programmatically
+
+To install burrp as a dependency:
+
+```
+$ npm install --save burrp
+```
+
+Then use it as:
+
+``` javascript
+var burp = require('burrp').burp;
+
+burp();
+// [ "Fire-Grilled Honey & Thyme Boar" ]
+```
 
 ### Tests
 
