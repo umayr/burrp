@@ -4,7 +4,8 @@
     "description": "A tiny cli app to generate food names.",
     "private": false,
     "bin": {
-        "burrp": "./bin/burrp"
+        "burrp": "./bin/burrp",
+        "burp": "./bin/burrp"
     },
     "scripts": {
         "test": "mocha -R spec"
