@@ -23,7 +23,7 @@
         "commander": "~2.0.0"
     },
     "homepage": "https://github.com/umayr/burrp#readme",
-    "main": "bin/burrp",
+    "main": "./lib/index",
     "directories": {
         "test": "test"
     },
